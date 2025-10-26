@@ -7,6 +7,7 @@ This project to analyze the fashion trends within the 2024 fashion season throug
 1. Do the most popular/common brands' collections match the most popular/common styles? If so, does that trend follow the industry's opinion of what the popular styles are for that year or season? Do the most influential brands in 2024 lead trends or follow consumerist style trends?
 2. Which brands or designers had the most looks for each season?
 3. Does a specific fashion week yield more brands? Are there more looks presented in a specific fashion week? If so, what could be the reason?
+
 and yielded many innaccurate and incomplete results due to flaws and malfunctions with scraping, server load times, variances in coding languages, updated system versions, issues with hyperlinks, substantial scraping times (over 800 collections were scraped), and time restrictions. While some information was obtained, the statistics should be taken with a large amount of salt. The researched conducted indicates that it can be reasonable to determine that brands did not lead trends or follow consumerist style trends in the 2024 fashion season.
 
 ## Introduction
