@@ -7,7 +7,7 @@ This project to analyze the fashion trends within the 2024 fashion season throug
 1. Do the most popular/common brands' collections match the most popular/common styles? If so, does that trend follow the industry's opinion of what the popular styles are for that year or season? Do the most influential brands in 2024 lead trends or follow consumerist style trends?
 2. Which brands or designers had the most looks for each season?
 3. Does a specific fashion week yield more brands? Are there more looks presented in a specific fashion week? If so, what could be the reason?
-and yielded many innacurate and incomplete results due to flaws and malfunctions with scraping, server load times, variances in coding languages, updated system versions, issues with hyperlinks, substantial scraping times (over 800 collections were scraped), and time restrictions. While some information was obtained, the statistics should be taken with a large amount of salt. The researched conducted indicates that it can be reasonable to determine that brands did not lead trends or follow consumerist style trends in the 2024 fashion season.
+and yielded many innaccurate and incomplete results due to flaws and malfunctions with scraping, server load times, variances in coding languages, updated system versions, issues with hyperlinks, substantial scraping times (over 800 collections were scraped), and time restrictions. While some information was obtained, the statistics should be taken with a large amount of salt. The researched conducted indicates that it can be reasonable to determine that brands did not lead trends or follow consumerist style trends in the 2024 fashion season.
 
 ## Introduction
 Hundreds, if not thousands, of fashion brands showcase their collections twice a year — in the *Fall/Winter* and *Spring/Summer* seasons. During these seasons, fashion collections are presented six months in advance to when they are released to the public for wear. With so many different brands releasing products annually, analyzing the patterns and statistics behind the two seasons presents a stimulating opportunity. 
@@ -28,11 +28,22 @@ However, other factors such as top-grossing movies, celebrity endorsements and b
 
 ## Research Question #2: Which brands or designers had the most looks for each season?
 
+Although a more basic question, the number of looks provides some insight into numerous factors such as: brand dedication for the collection, brand popularity, and brand wealth. Utilizing Figures 2 and 3, for *Spring/Summer*: Jacquemus, Sachin & Babi, Cos, Cult Gaia, Sumkhai, Simon Miller, H&M Studio, Alexander Wang, and Emilio Pucci all had three looks; *Fall/Winter*: Area, Apiece Apart, Sachin & Babi, Moncler Genius, Cos, Cult Gaia, Alexander Wang, H&M Studio, and Emilio Pucci also all had three looks.
 
+However, this data is unreliable. When inspecting the DataFrame, every collection only had one look — a clear sign of failed scraping. The look_count code may have missed images if the HTML structure is different or if images are lazy-loaded dynamically. As a result, any analysis requiring the factor of look counts is jeopardized. And like with the first figure, there was no more time to rework and refine the code.
 
 ## Research Question #3: Did a specific fashion week yield more brands? Were there more looks presented in a specific fashion week? If so, what could be the reason?
 
+When it comes to fashion, location is one of the primary aspects towards the medium. As seen in Figure 4, London Fashion Week and Milan Fashion Week had an average of two looks per brand while
+New York Fashion Week had one. No information was given for Paris Fashion Week. On the other hand, Unknown also had an average of two looks per brand.
 
+Sometimes, there may simply be no indicator of a specific fashion week for the brand. Still, having fewer than 10 fashion week locations (as indicated by the DataFrame) strongly suggests that the scraper did not function properly — or perhaps it did, but didn’t interact well with *Vogue*'s system.
+
+However, for the sake of having some sort of analysis using the data collected, it could be inferred that London and Milan Fashion Weeks did have more collections than New York Fashion Week and Paris Fashion Week. Italy, and Milan in particular, is known as the home of fashion. London on the other hand also has a renowned fashion scene. The prestigious college, Central Saint Martins resides there. But again, with the flaws in the code, this is all mere speculation.
+
+## Conclusion
+
+Overall, while an intriguing opportunity, the many technical difficulties compounded with the time constraints did not allow for an accurate collection and analysis of the 2024 fashion season with *Vogue*'s Ready-to-Wear database. If given more time, perhaps the statistics and results could be more solid.
 
 ## Works Cited
 
